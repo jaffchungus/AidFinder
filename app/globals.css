@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass-card {
+    @apply bg-white/30 backdrop-blur-md border border-white/20 rounded-xl shadow-lg;
+  }
+  .btn {
+    @apply text-white px-4 py-2 rounded-md font-medium;
+  }
+  .input {
+    @apply block w-full p-2 border border-gray-300 rounded-md bg-white/50;
+  }
+}
